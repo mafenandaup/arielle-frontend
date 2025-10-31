@@ -1,2 +1,25 @@
 
-    @import 'tailwindcss';
+  @import 'tailwindcss';
+
+@theme {
+  --font-sansation: "Sansation", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+    --font-segoe: "Segoe UI", sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d4d4d4;
+  scroll-behavior: smooth; 
+  /* esqueci q essas configs são no body e não no root XD */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
